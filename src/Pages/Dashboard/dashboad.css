@@ -1,0 +1,11 @@
+.maindiv{
+    background-color: #e2e2ec;
+    height: 100%;
+    width: 100%;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+    .maindiv {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+   */

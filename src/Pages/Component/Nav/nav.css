@@ -1,0 +1,18 @@
+.left{
+    width: 25%;
+    background-color: aqua;
+    padding-left: 5%;
+    
+
+}
+.left p{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.left p span{
+    font-size: 12px;
+    
+    justify-content: center;
+    font-weight: 300;
+}

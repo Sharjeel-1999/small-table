@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav-ul li a {
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  background-color: #61dafb;
+  color: black;
+  font-weight: 500;
+
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: #61dafb;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.appbtn{
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: skyblue;
+  width: 300px;
+  cursor: pointer;
+   
+}
+.btn-sign{
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: skyblue;
+  width: 300px;
+  cursor: pointer;
+  
+}
+.signup {
+  position: absolute;
+  margin-left: 30%;
+}
+.login{
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 5px;
+  border: 2px solid black;
+  width: 300px;
+  background-color: skyblue;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

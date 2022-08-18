@@ -1,0 +1,127 @@
+.body {
+    padding: 0px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+.main{
+    width: 100%;
+}
+.first{
+    width: 50%;
+}
+.second{
+    width: 50%;
+}
+.h4{
+    text-align: center;
+    justify-content: center;
+}
+table {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%, -30%);
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.status{
+    width: 50px;
+}
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.th{
+    color: #fff;
+    background-color: pink;
+    border-radius: 40%;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.tx{
+    color: #fff;
+    background-color: #FCB700;
+    border-radius: 40%;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ty{
+    color: #fff;
+    background-color: #69A6F7;
+    border-radius: 40%;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.tz{
+    color: #fff;
+    background-color: #69A6F7;
+    border-radius: 40%;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.ta{
+    color: #fff;
+    background-color: #A2D452;
+    border-radius: 40%;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.ta{
+    color: #fff;
+    background-color: #FCB700;
+    border-radius: 40%;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#header {
+    background-color: #16a085;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 40%;
+    }
+}
